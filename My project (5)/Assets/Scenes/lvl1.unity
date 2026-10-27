@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 408060759}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -307,7 +307,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -491,22 +491,22 @@ PrefabInstance:
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.323517
+      value: -3.5458832
       objectReference: {fileID: 0}
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.277594
+      value: 20.5
       objectReference: {fileID: 0}
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 40.915752
+      value: 36.704098
       objectReference: {fileID: 0}
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.5753143
       objectReference: {fileID: 0}
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
@@ -516,7 +516,7 @@ PrefabInstance:
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.8179325
       objectReference: {fileID: 0}
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
@@ -531,7 +531,7 @@ PrefabInstance:
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 109.757
       objectReference: {fileID: 0}
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
@@ -551,7 +551,7 @@ PrefabInstance:
     - target: {fileID: 5894792612882846490, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7239979551046584319, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
@@ -718,7 +718,7 @@ GameObject:
   - component: {fileID: 1386230321}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -738,7 +738,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -845,7 +845,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614515082}
   serializedVersion: 4
-  m_Mass: 20
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -862,7 +862,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &1614515084
 MonoBehaviour:
@@ -876,8 +876,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69bc398b97d6ca949a967f35edd0d54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  rotationSpeed: 100
+  speed: 5
+  rotationSpeed: 200
+  jumpForce: 60
   gravityModifier: 1.5
   isOnGround: 1
 --- !u!4 &1614515087 stripped
