@@ -666,7 +666,7 @@ Transform:
   m_GameObject: {fileID: 690811135}
   serializedVersion: 2
   m_LocalRotation: {x: 0.012826721, y: 0.98578584, z: -0.08915926, w: 0.14181814}
-  m_LocalPosition: {x: 160.51149, y: 6.6675587, z: 231.18295}
+  m_LocalPosition: {x: 157.17795, y: 15.787329, z: 242.52899}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -890,17 +890,17 @@ PrefabInstance:
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 266432281443814168, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
@@ -1035,7 +1035,7 @@ Transform:
   m_GameObject: {fileID: 903876559}
   serializedVersion: 2
   m_LocalRotation: {x: 0.08995396, y: -0.052070133, z: 0.0047094775, w: 0.9945727}
-  m_LocalPosition: {x: 0.04199903, y: -0.08300011, z: -0.3999976}
+  m_LocalPosition: {x: 0.013999677, y: -0.18033336, z: -0.13333252}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1093,7 +1093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44d70cc20219cd84593f67d248eafe36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Offset: {x: -0.14, y: 2.42, z: -6.88}
+  m_Offset: {x: -0.14, y: 9.27, z: -20.15}
   m_ApplyAfter: 1
   m_PreserveComposition: 0
 --- !u!1001 &910024389
@@ -1688,7 +1688,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614515082}
   serializedVersion: 4
-  m_Mass: 10
+  m_Mass: 3.5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1719,10 +1719,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69bc398b97d6ca949a967f35edd0d54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 20
   rotationSpeed: 200
-  jumpForce: 100
-  gravityModifier: 2
+  jumpForce: 60
+  gravityModifier: 3
   isOnGround: 1
 --- !u!4 &1614515087 stripped
 Transform:
