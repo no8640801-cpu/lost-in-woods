@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -11,11 +13,15 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float verticalInput;
     private float jumpForce = 10f;
+    public float gravityModifier;
+    public bool isOnGround = true;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody>();
+        Physics.gravity *= gravityModifier;
     }
 
     // Update is called once per frame
@@ -29,8 +35,22 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isWalking", isMoving);
 
         transform.Translate(Vector3.forward * Time.deltaTime * speed * verticalInput);
-            transform.Rotate(Vector3.up * Time.deltaTime * rotationSpeed * horizontalInput);
-            
+        transform.Rotate(Vector3.up * Time.deltaTime * rotationSpeed * horizontalInput);
+
+        if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            isOnGround = false;
+        }
     }
-    
+
+        private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isOnGround = true;
+        }
+    }
 }
+
+
