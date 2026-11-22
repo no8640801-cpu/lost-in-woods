@@ -15,8 +15,14 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 10f;
     public float gravityModifier;
     public bool isOnGround = true;
+    private Life healthScript;
 
-    // Start is called before the first frame update
+    void Awake()
+    {
+        healthScript = GetComponent<Life>();
+    }
+
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -24,9 +30,15 @@ public class PlayerController : MonoBehaviour
         Physics.gravity *= gravityModifier;
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
+        if (healthScript != null && healthScript.isDead)
+        {
+            
+            return;
+        }
+
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
 
