@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 248879607519634819}
   m_Layer: 0
   m_Name: EA03_wooden_FieldStick_01a_PRE
-  m_TagString: sutable
+  m_TagString: suitable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - ew
   - yum
+  - unsuitable
+  - suitable
+  - sutable
   layers:
   - Default
   - TransparentFX

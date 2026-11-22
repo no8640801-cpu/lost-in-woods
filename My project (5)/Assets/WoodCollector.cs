@@ -43,7 +43,7 @@ public class WoodCollector : MonoBehaviour
         if (!missionActive)
             return;
 
-        if (other.CompareTag("sutable"))
+        if (other.CompareTag("suitable"))
         {
             collectedWood++;
 
