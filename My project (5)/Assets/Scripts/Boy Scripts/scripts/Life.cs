@@ -1,4 +1,3 @@
-using TMPro;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,7 +13,6 @@ public class Life : MonoBehaviour
     public MonoBehaviour movement;
     private Rigidbody rb;
     private Animator anim;  
-    public TMP_Text healthText;
     void Start()
     {
         currentHealth = maxHealth;
@@ -27,7 +25,6 @@ public class Life : MonoBehaviour
             healthSlider.maxValue = maxHealth;
             healthSlider.value = currentHealth;
         }
-
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -61,22 +58,14 @@ public class Life : MonoBehaviour
     {
         if (healthSlider != null)
         {
-            
             healthSlider.value = currentHealth;
         }
-        if (healthText != null)
-            {
-                healthText.text = currentHealth.ToString("0");
-            }
-        }
+    }
 
         void CheckDeath()
         {
             if (currentHealth <= 0f && !isDead)
             {
-                isDead = true;
-                UpdateHealthUI();
-
                 if (movement != null)
                 
                     movement.enabled = false;
