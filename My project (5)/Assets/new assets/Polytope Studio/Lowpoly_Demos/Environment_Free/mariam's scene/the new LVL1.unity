@@ -16950,6 +16950,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5894792612882846490, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5894792612882846490, guid: 8c2d3588d63061d41b5142b95e5bc969,
+        type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -16988,6 +16993,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2059925509}
+    - targetCorrespondingSourceObject: {fileID: 646651457446580642, guid: 8c2d3588d63061d41b5142b95e5bc969,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2059925516}
     - targetCorrespondingSourceObject: {fileID: 8343151750643405093, guid: 8c2d3588d63061d41b5142b95e5bc969,
         type: 3}
       insertIndex: -1
@@ -17552,7 +17561,30 @@ MonoBehaviour:
   healthSlider: {fileID: 0}
   fallAngleX: 90
   isDead: 1
-  DisableOnDeath: []
+  movement: {fileID: 2059925510}
+--- !u!136 &2059925516
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059925507}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 0.15340662
+  m_Height: 1.0082941
+  m_Direction: 1
+  m_Center: {x: 0.011454372, y: 0.4966429, z: -0.017032057}
 --- !u!1001 &2062286421
 PrefabInstance:
   m_ObjectHideFlags: 0

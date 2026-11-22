@@ -10,11 +10,16 @@ public class Life : MonoBehaviour
     public Slider healthSlider;
     public float fallAngleX = 90f;
     public bool isDead;
-
+    public MonoBehaviour movement;
+    private Rigidbody rb;
+    private Animator anim;  
     void Start()
     {
         currentHealth = maxHealth;
         isDead = false;
+        rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
+
         if (healthSlider != null)
         {
             healthSlider.maxValue = maxHealth;
@@ -61,10 +66,29 @@ public class Life : MonoBehaviour
         {
             if (currentHealth <= 0f && !isDead)
             {
+                if (movement != null)
+                
+                    movement.enabled = false;
+
+                if (anim != null)
+                
+                    anim.enabled = false;
+
+                if (rb != null)
+                {
+                    rb.velocity = Vector3.zero;
+                    rb.angularVelocity = Vector3.zero;
+                    rb.isKinematic = true;
+                }
+
+
                 isDead = true;
-                transform.Rotate(fallAngleX, 0f, 0f, Space.Self);
+                movement.enabled = false;
                 Debug.Log("Game Over!");
+                rb.constraints = RigidbodyConstraints.None;
+                rb.AddForce((transform.forward + Vector3.up) * 3f, ForceMode.Impulse);
             }
         }
+
     }
 }

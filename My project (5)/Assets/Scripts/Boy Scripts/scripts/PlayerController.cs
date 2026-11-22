@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     public bool isOnGround = true;
     private Life healthScript;
 
+    
+
     void Awake()
     {
         healthScript = GetComponent<Life>();
