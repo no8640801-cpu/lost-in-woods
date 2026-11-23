@@ -15,6 +15,9 @@ public class WoodCollector : MonoBehaviour
     [Header("Timer")]
     public float timeLeft = 60f;
 
+    [Header("Game Over")]
+    public GameOverManager gameOverManager;
+
     private bool missionActive = true;
 
     void Start()
@@ -35,7 +38,16 @@ public class WoodCollector : MonoBehaviour
             timeLeft = 0;
             missionActive = false;
 
+            UpdateTimer();
+
             Debug.Log("Time is up! Mission Failed!");
+
+            if (gameOverManager != null)
+                gameOverManager.GameOver();
+            else
+                Debug.LogError("GameOverManager is not assigned!");
+
+            return;
         }
 
         UpdateTimer();
@@ -61,7 +73,6 @@ public class WoodCollector : MonoBehaviour
                 Debug.Log("Mission Completed!");
             }
         }
-
         else if (other.CompareTag("unsuitable"))
         {
             Debug.Log("This wood is not suitable!");
@@ -86,5 +97,3 @@ public class WoodCollector : MonoBehaviour
         }
     }
 }
-
-

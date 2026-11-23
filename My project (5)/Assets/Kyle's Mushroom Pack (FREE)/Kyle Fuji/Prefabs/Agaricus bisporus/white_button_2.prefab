@@ -90,6 +90,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 55226992bc87c8149bd80b8ceff853d7,
         type: 3}
+      propertyPath: m_TagString
+      value: yum
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 55226992bc87c8149bd80b8ceff853d7,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
