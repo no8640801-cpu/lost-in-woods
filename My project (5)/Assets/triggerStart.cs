@@ -13,15 +13,7 @@ public class triggerStart : MonoBehaviour
     {
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.F))
         {
-            Debug.Log("تم الضغط على F داخل المنطقة! جاري تشغيل الحوار...");
-            
-            if (ConversationManager.Instance == null)
-            {
-                Debug.LogError("خطأ: كائن ConversationManager غير موجود في المشهد (Hierarchy)!");
-                return;
-            }
-
-            if (!ConversationManager.Instance.IsConversationActive)
+            if (ConversationManager.Instance != null && !ConversationManager.Instance.IsConversationActive)
             {
                 ConversationManager.Instance.StartConversation(myconversation);
             }
@@ -30,13 +22,9 @@ public class triggerStart : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // هذا السطر سيخبرنا في الـ Console بأي كائن يلمس التريجر وما هو الـ Tag الخاص به
-        Debug.Log("كائن دخل المنطقة: " + other.name + " | الـ Tag الخاص به هو: " + other.tag);
-
         if (other.CompareTag("Player"))
         {
             isPlayerInRange = true;
-            Debug.Log("اللاعب أصبح في النطاق! اضغطي F الآن.");
         }
     }
 
@@ -45,7 +33,7 @@ public class triggerStart : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInRange = false;
-            Debug.Log("اللاعب خرج من النطاق.");
         }
     }
 }
+

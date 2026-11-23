@@ -7269,13 +7269,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 12
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":244.799988,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"
-    Finally! Someone found me! I was starting to think I''d become a tree decoration.","parentUIDs":[],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":true,"IconGUID":null,"Name":"Atlas","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.7,"Volume":1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":481.199951,"yPos":105.600006},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"WHAT?!
-    You... you can talk?!","parentUIDs":[0],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":true,"IconGUID":null,"Name":"Adam","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.3,"Volume":1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":241.600037,"yPos":130.400009},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"No,
-    I just enjoy making dramatic noises. Of course I can talk!","parentUIDs":[2],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":true,"IconGUID":null,"Name":"Atlas","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":2,"Volume":1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":480.799927,"yPos":220.000015},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"
-    You''re a... talking book?!","parentUIDs":[3],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":true,"IconGUID":null,"Name":"Adam","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0.7,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":11}],"EditorInfo":{"isRoot":false,"xPos":248.799988,"yPos":248},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"
-    And you''re a walking disaster, apparently. Nice to meet you!\n","parentUIDs":[4],"AdvanceDialogueAutomatically":true,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":true,"IconGUID":null,"Name":"Atias","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":1.7,"Volume":1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":481.5999,"yPos":324},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":null,"parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 37
+  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":240.400024,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    Finally! Someone found me! I was starting to think I'd become a tree decoration.\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":499.200134,\"yPos\":105.601425},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"WHAT?!
+    You... you can talk?!\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":242.000061,\"yPos\":129.601761},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"No,
+    I just enjoy making dramatic noises. Of course I can talk!\",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":500.4001,\"yPos\":222.400589},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    You're a... talking book?!\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":244.400024,\"yPos\":248.000809},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    And you're a walking disaster, apparently. Nice to meet you!\\n\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atias\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":12}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":501.2,\"yPos\":327.1997},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hey!
+    That's not very nice!\\n\\n\",\"parentUIDs\":[5],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":245.599976,\"yPos\":355.199921},\"ID\":12,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Oh,
+    forgive me, Your Highness. Would you prefer \\\"lost little explorer\\\"?\",\"parentUIDs\":[11],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":500.000061,\"yPos\":424.799835},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I'm
+    not lost! I'm just... looking for my parents.\",\"parentUIDs\":[12],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":250.400085,\"yPos\":458.3998},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Right.
+    In the middle of a forest. Alone. With no idea where to go. Definitely not lost.\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":16}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":499.200134,\"yPos\":518.399658},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"...Can
+    you help me find them?\",\"parentUIDs\":[14],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":17}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":250.400085,\"yPos\":557.599854},\"ID\":16,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Hmm...
+    Maybe. But first, we need to keep you alive.\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":18}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":250.400146,\"yPos\":657.599243},\"ID\":17,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Don't
+    you see yourself? You're about to faint! You look like you haven't eaten in days.
+    You need to find something to eat.\",\"parentUIDs\":[16],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":19}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":497.5999,\"yPos\":654.3992},\"ID\":18,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"But...
+    I don't have any food!\",\"parentUIDs\":[17],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":255.200134,\"yPos\":758.399536},\"ID\":19,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    well, Fortunately, there are plenty of edible things you can choose from in this
+    forest. What about picking some mushrooms? Though they can be poisonous sometimes!\",\"parentUIDs\":[18],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":498.399963,\"yPos\":759.999634},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"But
+    how am I supposed to know which ones are safe?\",\"parentUIDs\":[19],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam
+    \",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":252.80011,\"yPos\":854.4005},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"That's
+    exactly why your dad gave me to you! Now listen closely: I'll help you spot safe
+    types so you can pick carefully\u2014here are a few examples of that.\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas 
+    \",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":254.3999,\"yPos\":943.199951},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    First, watch out for Fly Agaric (Amanita muscaria). It looks like a classic fairy-tale
+    mushroom\u2014bright red cap with white spots. Pretty, right? Well, it's poisonous!
+    Don't even think about taking a bite.\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"\u0650Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":24}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":494.4002,\"yPos\":943.199951},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Okay,
+    red with white spots equals bad news. Got it!\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":253.6001,\"yPos\":1040.79968},\"ID\":24,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Second
+    is the Jack-o'-Lantern (Omphalotus olearius). It has a bright orange color and
+    grows in clusters near wood, and sometimes it even gives off a faint greenish
+    glow in the dark! It's poisonous too, so step away slowly.\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":498.4002,\"yPos\":1040.79968},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    Glowing mushroom sounds cool... until it makes me sick. What else?\",\"parentUIDs\":[24],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":252.80011,\"yPos\":1135.99915},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Third
+    is the Deadly Dapperling (Lepiota brunneoincarnata). Small, brownish-pinkish
+    cap with little scales on it. Don't let its small size fool you\u2014the name
+    says it all. It's deadly poisonous and very dangerous to the liver. Zero chances
+    with this one!\",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":28}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":496.800232,\"yPos\":1140.79919},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Yikes...
+    okay, no touching or eating any of those three. Do you have any good news?\",\"parentUIDs\":[26],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":256.800079,\"yPos\":1232.8},\"ID\":28,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Glad
+    you asked! Fourth is the Morel (Morchella esculenta). Instead of a smooth cap,
+    it looks like a little sponge full of pits and ridges, usually brownish-gray.
+    It's edible and super tasty\u2014just make sure it's cooked well first!\",\"parentUIDs\":[27],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":30}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":500.000183,\"yPos\":1233.6001},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    A sponge mushroom? Weird, but if it's safe and tasty, I like it!\",\"parentUIDs\":[28],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":31}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":259.2002,\"yPos\":1335.19653},\"ID\":30,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    Fifth is Shiitake (Lentinula edodes). It has a brown, umbrella-like cap with
+    slightly curled edges and grows on dead or fallen trees. It's edible, full of
+    flavor, and really good for you\u2014once cooked properly.\",\"parentUIDs\":[29],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":32}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":500.800232,\"yPos\":1335.99634},\"ID\":31,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    Brown cap on fallen wood, cooked well. Easy enough!\",\"parentUIDs\":[30],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":33}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":256.800079,\"yPos\":1426.39526},\"ID\":32,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"
+    And sixth is the Button Mushroom (Agaricus bisporus). It's round, smooth, and
+    white or light brown\u2014the classic mushroom shape most people recognize. Completely
+    edible and safe, and you can even eat it raw or cooked!\",\"parentUIDs\":[31],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":34}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":502.4001,\"yPos\":1431.19531},\"ID\":33,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Finally,
+    one that looks normal and doesn't try to poison me!\",\"parentUIDs\":[32],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":258.4002,\"yPos\":1521.59692},\"ID\":34,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Now,
+    you know how to identify mushrooms, let's start with your first mission: Find
+    some food!\",\"parentUIDs\":[33],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":36}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":501.600159,\"yPos\":1530.39746},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Okay!
+    Let's do this!\",\"parentUIDs\":[34],\"AdvanceDialogueAutomatically\":true,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Adam\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0.1,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":257.600067,\"yPos\":1614.396},\"ID\":36,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"That's
+    the spirit! And try not to eat anything poisonous. I'd hate to have to find another
+    owner!\",\"parentUIDs\":[35],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Atlas\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -7287,6 +7333,31 @@ MonoBehaviour:
   - {fileID: 1314798071}
   - {fileID: 1314798070}
   - {fileID: 1314798073}
+  - {fileID: 1314798098}
+  - {fileID: 1314798097}
+  - {fileID: 1314798096}
+  - {fileID: 1314798095}
+  - {fileID: 1314798094}
+  - {fileID: 1314798093}
+  - {fileID: 1314798092}
+  - {fileID: 1314798091}
+  - {fileID: 1314798090}
+  - {fileID: 1314798089}
+  - {fileID: 1314798088}
+  - {fileID: 1314798087}
+  - {fileID: 1314798086}
+  - {fileID: 1314798085}
+  - {fileID: 1314798084}
+  - {fileID: 1314798083}
+  - {fileID: 1314798082}
+  - {fileID: 1314798081}
+  - {fileID: 1314798080}
+  - {fileID: 1314798079}
+  - {fileID: 1314798078}
+  - {fileID: 1314798077}
+  - {fileID: 1314798076}
+  - {fileID: 1314798075}
+  - {fileID: 1314798074}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -14381,6 +14452,31 @@ GameObject:
   - component: {fileID: 1314798071}
   - component: {fileID: 1314798070}
   - component: {fileID: 1314798073}
+  - component: {fileID: 1314798098}
+  - component: {fileID: 1314798097}
+  - component: {fileID: 1314798096}
+  - component: {fileID: 1314798095}
+  - component: {fileID: 1314798094}
+  - component: {fileID: 1314798093}
+  - component: {fileID: 1314798092}
+  - component: {fileID: 1314798091}
+  - component: {fileID: 1314798090}
+  - component: {fileID: 1314798089}
+  - component: {fileID: 1314798088}
+  - component: {fileID: 1314798087}
+  - component: {fileID: 1314798086}
+  - component: {fileID: 1314798085}
+  - component: {fileID: 1314798084}
+  - component: {fileID: 1314798083}
+  - component: {fileID: 1314798082}
+  - component: {fileID: 1314798081}
+  - component: {fileID: 1314798080}
+  - component: {fileID: 1314798079}
+  - component: {fileID: 1314798078}
+  - component: {fileID: 1314798077}
+  - component: {fileID: 1314798076}
+  - component: {fileID: 1314798075}
+  - component: {fileID: 1314798074}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -14514,6 +14610,481 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 11
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 36
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 35
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 34
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 33
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 32
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0281581f37b57264a8a0bdd241c230f7, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1314798079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 31
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 30
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 4f50599a55dc6c94fb8cb5f139453d53, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1314798081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 29
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 28
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: d706b166344b18848829f802146bb9bb, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1314798083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 27
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 26
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: a8f47bf4161f9c84483b43bafc87a639, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1314798085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 25
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 24
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 08c7829e5592f4943b50527d1200713b, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1314798087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 23
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 22
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 4b983c05453cd6e439678ebeab997b39, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1314798089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 21
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 20
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 19
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 18
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 17
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 16
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 15
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 14
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 13
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1314798098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314798066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 12
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
