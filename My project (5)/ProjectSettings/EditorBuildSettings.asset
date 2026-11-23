@@ -9,9 +9,10 @@ EditorBuildSettings:
     path: Assets/Main menu.unity
     guid: 1f7c8d5a153041e41b0d4853ef2119d2
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/StoryIntro.unity
+    guid: 6ce594fa0cdb332418173ea533a4fba5
   - enabled: 1
-    path: Assets/Scenes/lvl1.unity
-    guid: ea334ebb0d47fd84da427d068e0854bf
+    path: Assets/new assets/Polytope Studio/Lowpoly_Demos/Environment_Free/mariam's
+      scene/the new LVL1.unity
+    guid: c732593fe76e5a84197f9cd13963f706
   m_configObjects: {}
