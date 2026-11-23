@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7759729742730641375}
-  - component: {fileID: 8080698691081139895}
+  - component: {fileID: 2541010877996803727}
   m_Layer: 0
   m_Name: EA03_wooden_FieldStick_01c_PRE
   m_TagString: unsuitable
@@ -33,8 +33,8 @@ Transform:
   - {fileID: 1013745868113933679}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -1.125, y: 0, z: 0}
---- !u!64 &8080698691081139895
-MeshCollider:
+--- !u!65 &2541010877996803727
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -48,13 +48,12 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 3
+  m_Size: {x: 0.5825189, y: 3.5869179, z: 0.4766468}
+  m_Center: {x: -0.20874079, y: 1.293451, z: -0.26167372}
 --- !u!1 &5614344446314021926
 GameObject:
   m_ObjectHideFlags: 0
@@ -66,7 +65,7 @@ GameObject:
   - component: {fileID: 1013745868113933679}
   - component: {fileID: 7296346889666818412}
   - component: {fileID: 2769128818916932178}
-  - component: {fileID: 9183273465396470635}
+  - component: {fileID: 1890604547736814421}
   m_Layer: 0
   m_Name: EA03_wooden_FieldStick_01c_LOD2
   m_TagString: unsuitable
@@ -139,8 +138,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &9183273465396470635
-MeshCollider:
+--- !u!65 &1890604547736814421
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -154,10 +153,9 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: bb3e11152c5c8db48a066161efa0a2b4, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.51381415, y: 3.1672425, z: 0.37120265}
+  m_Center: {x: 0.06386221, y: 1.6039884, z: -0.04100926}

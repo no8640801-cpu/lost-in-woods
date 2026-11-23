@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1440432788557631778}
-  - component: {fileID: 5417009620399921487}
+  - component: {fileID: 3023875902143910829}
   m_Layer: 0
   m_Name: EA03_wooden_FieldStick_01e_PRE
   m_TagString: suitable
@@ -33,8 +33,8 @@ Transform:
   - {fileID: 6834501900353107021}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.394}
---- !u!64 &5417009620399921487
-MeshCollider:
+--- !u!65 &3023875902143910829
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -51,10 +51,9 @@ MeshCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 3
+  m_Size: {x: 0.634993, y: 7.534365, z: 0.35024706}
+  m_Center: {x: 0.18250379, y: 3.26724, z: -0.32487777}
 --- !u!1 &8205978120142387750
 GameObject:
   m_ObjectHideFlags: 0
@@ -66,10 +65,10 @@ GameObject:
   - component: {fileID: 6834501900353107021}
   - component: {fileID: 8732739436210904821}
   - component: {fileID: 6742033753646653721}
-  - component: {fileID: 5323640171002944066}
+  - component: {fileID: 4460706372432039622}
   m_Layer: 0
   m_Name: EA03_wooden_FieldStick_01e_LOD0
-  m_TagString: sutable
+  m_TagString: suitable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,8 +138,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5323640171002944066
-MeshCollider:
+--- !u!65 &4460706372432039622
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -157,7 +156,6 @@ MeshCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300004, guid: b9dd770dd0242a542b71a55783fe2862, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.26799598, y: 6.871573, z: 0.38902375}
+  m_Center: {x: -0.0010971508, y: 3.4357865, z: 0.014319717}

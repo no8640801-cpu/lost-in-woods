@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 4493040046774729104}
   - component: {fileID: 8668603744567822410}
   - component: {fileID: 54381202617486043}
-  - component: {fileID: 5381362133235667546}
+  - component: {fileID: 49670435876557809}
   m_Layer: 0
   m_Name: EA03_wooden_FieldStick_01a_LOD2
-  m_TagString: sutable
+  m_TagString: suitable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5381362133235667546
-MeshCollider:
+--- !u!65 &49670435876557809
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -102,10 +102,9 @@ MeshCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 7643f5e9f27d5294ab95fb419fd44684, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.29196844, y: 3.6255512, z: 0.3331939}
+  m_Center: {x: 0.020697156, y: 1.8128042, z: 0.022247866}
 --- !u!1 &8202897231160198460
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,7 +114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8884101932953539924}
-  - component: {fileID: 248879607519634819}
+  - component: {fileID: 187232219167302826}
   m_Layer: 0
   m_Name: EA03_wooden_FieldStick_01a_PRE
   m_TagString: suitable
@@ -132,15 +131,15 @@ Transform:
   m_GameObject: {fileID: 8202897231160198460}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.58872956, w: 0.80833006}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.109, y: -0.035, z: 0}
   m_LocalScale: {x: 0.5, y: 0.2, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4493040046774729104}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 72.134}
---- !u!64 &248879607519634819
-MeshCollider:
+--- !u!65 &187232219167302826
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -157,7 +156,6 @@ MeshCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 3
+  m_Size: {x: 0.70529914, y: 4.3710423, z: 0.45458034}
+  m_Center: {x: -0.14734869, y: 1.6855264, z: -0.27270982}

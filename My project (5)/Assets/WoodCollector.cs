@@ -4,12 +4,15 @@ using TMPro;
 
 public class WoodCollector : MonoBehaviour
 {
+    [Header("Wood Settings")]
     public int collectedWood = 0;
     public int requiredWood = 5;
 
+    [Header("UI")]
     public TMP_Text woodCounterText;
     public TMP_Text timerText;
 
+    [Header("Timer")]
     public float timeLeft = 60f;
 
     private bool missionActive = true;
@@ -32,7 +35,7 @@ public class WoodCollector : MonoBehaviour
             timeLeft = 0;
             missionActive = false;
 
-            Debug.Log("Time's up! Mission failed.");
+            Debug.Log("Time is up! Mission Failed!");
         }
 
         UpdateTimer();
@@ -54,9 +57,11 @@ public class WoodCollector : MonoBehaviour
             if (collectedWood >= requiredWood)
             {
                 missionActive = false;
-                Debug.Log("Mission completed!");
+
+                Debug.Log("Mission Completed!");
             }
         }
+
         else if (other.CompareTag("unsuitable"))
         {
             Debug.Log("This wood is not suitable!");
@@ -65,13 +70,21 @@ public class WoodCollector : MonoBehaviour
 
     void UpdateCounter()
     {
-        woodCounterText.text =
-            "Wood: " + collectedWood + "/" + requiredWood;
+        if (woodCounterText != null)
+        {
+            woodCounterText.text =
+                "Wood: " + collectedWood + "/" + requiredWood;
+        }
     }
 
     void UpdateTimer()
     {
-        timerText.text =
-            "Time: " + Mathf.Ceil(timeLeft).ToString();
+        if (timerText != null)
+        {
+            timerText.text =
+                "Time: " + Mathf.Ceil(timeLeft);
+        }
     }
 }
+
+

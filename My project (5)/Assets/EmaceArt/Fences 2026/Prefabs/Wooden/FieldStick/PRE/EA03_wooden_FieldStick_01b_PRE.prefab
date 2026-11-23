@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 866052985715742072}
   - component: {fileID: 2211011180096762938}
   - component: {fileID: 1877724674322393480}
-  - component: {fileID: 8638536702558550319}
+  - component: {fileID: 7985492543152737656}
   m_Layer: 0
   m_Name: EA03_wooden_FieldStick_01b_LOD2
   m_TagString: unsuitable
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8638536702558550319
-MeshCollider:
+--- !u!65 &7985492543152737656
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -99,13 +99,12 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 65f77848e72b6554b994911c931c169d, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.55690783, y: 6.8663855, z: 0.9273155}
+  m_Center: {x: 0.020710783, y: 3.4331927, z: 0.03945093}
 --- !u!1 &4905168584763146097
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,7 +114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1196664157176910587}
-  - component: {fileID: 5212429634170748406}
+  - component: {fileID: 520130277209766964}
   m_Layer: 0
   m_Name: EA03_wooden_FieldStick_01b_PRE
   m_TagString: unsuitable
@@ -139,8 +138,8 @@ Transform:
   - {fileID: 866052985715742072}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -66.25}
---- !u!64 &5212429634170748406
-MeshCollider:
+--- !u!65 &520130277209766964
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -157,7 +156,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 3
+  m_Size: {x: 1, y: 7.4533176, z: 1.8171303}
+  m_Center: {x: 0.0000062502395, y: 3.2266796, z: -0.40856552}

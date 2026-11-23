@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8230275814526339373}
   - component: {fileID: 3017588174734334259}
   - component: {fileID: 5552664605973324327}
-  - component: {fileID: 3568597160477238121}
+  - component: {fileID: 7390778866109917650}
   m_Layer: 0
   m_Name: EA03_wooden_FieldStick_01d_LOD2
   m_TagString: unsuitable
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3568597160477238121
-MeshCollider:
+--- !u!65 &7390778866109917650
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -99,13 +99,12 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 8dbabf6e08e2c4b46b3049d84db412ec, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.43922034, y: 5.0118194, z: 0}
+  m_Center: {x: -0.0396822, y: 2.5059097, z: 0}
 --- !u!1 &8558970655817795639
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,7 +114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4076147308714058584}
-  - component: {fileID: 4039631961271199379}
+  - component: {fileID: 5620412179925450351}
   m_Layer: 0
   m_Name: EA03_wooden_FieldStick_01d_PRE
   m_TagString: unsuitable
@@ -139,8 +138,8 @@ Transform:
   - {fileID: 8230275814526339373}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &4039631961271199379
-MeshCollider:
+--- !u!65 &5620412179925450351
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -157,7 +156,6 @@ MeshCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 3
+  m_Size: {x: 0.8975293, y: 10.164895, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
